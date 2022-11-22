@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+body {
+  background: rgb(75, 79, 158);
+}
+
+.container {
+  width: 350px;
+  margin: 200px auto;
+  /* margin-top: 200px; */
+  padding: 10px;
+
+  text-align: center;
+  background: rgb(6, 6, 6);
+  border: 1px solid dimgrey;
+  border-radius: 5px;
+  box-shadow: 4px 4px 30px rgb(251, 114, 10),
+    4px 4px 30px rgb(251, 114, 10),
+    4px 4px 30px rgb(251, 114, 10),
+    4px 4px 30px rgb(251, 114, 10);
+
+
+}
+
+.output {
+  margin-bottom: 20px;
+}
+
+input {
+  text-align: right;
+  width: 250px;
+  height: 50px;
+  background: #000;
+  color: #ffffff;
+  border: 1px solid rgb(251, 114, 10);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 25px;
+}
+
+button {
+  text-align: center;
+  margin: 2px;
+  width: 80px;
+  height: 40px;
+  margin: 3px;
+  background: #000;
+  color: rgb(251, 114, 10);
+  font-size: 20px;
+  border: 2px solid rgb(251, 114, 10);
+  border-radius: 10px;
+}
+
+
+
+h1 {
+  color: rgb(251, 114, 10);
+  padding-bottom: 10px;
+  font-family: 'Skranji',
+    cursive;
+  text-shadow: 4px 4px 30px rgba(240, 8, 8, 0.555),
+    4px 4px 30px rgb(240 8 8),
+    4px 4px 30px rgb(240 8 8),
+    4px 4px 30px rgb(240 8 8);
+}
